@@ -20,6 +20,13 @@ __all__ = [
 FLOPS_MODE = "flops"
 ACTIVATIONS_MODE = "activations"
 
+TEST_NAME = "yphong"
+
+def hi():
+    return 0
+
+def hello():
+    return 1
 
 # Some extra ops to ignore from counting, including elementwise and reduction ops
 _IGNORED_OPS = {
