@@ -20,6 +20,7 @@ __all__ = [
 FLOPS_MODE = "flops"
 ACTIVATIONS_MODE = "activations"
 
+TEST_NAME = "yphong"
 
 # Some extra ops to ignore from counting, including elementwise and reduction ops
 _IGNORED_OPS = {
