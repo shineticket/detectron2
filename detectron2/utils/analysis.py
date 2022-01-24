@@ -22,6 +22,9 @@ ACTIVATIONS_MODE = "activations"
 
 TEST_NAME = "yphong"
 
+def hi():
+    return 0
+
 def hello():
     return 1
 
